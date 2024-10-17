@@ -598,6 +598,14 @@
     [
       "b4185304-bcce-4cb1-98f3-8bffc8e76c1e",
       "OpAmp"
+    ],
+    [
+      "f519304b-9da7-41e0-88ca-532cf10653e0",
+      "Electret AMP"
+    ],
+    [
+      "961be52f-ca6e-47db-97af-a75ea0ab8933",
+      "Power and MCU"
     ]
   ],
   "text_variables": {}
