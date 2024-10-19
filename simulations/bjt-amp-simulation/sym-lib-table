@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "pspice_npn_2n3904")(type "KiCad")(uri "${KIPRJMOD}/pspice_npn_2n3904.kicad_sym")(options "")(descr ""))
+)

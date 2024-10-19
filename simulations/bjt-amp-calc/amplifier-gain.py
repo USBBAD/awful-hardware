@@ -41,6 +41,29 @@ def calculation_profile_1():
     print("R_E resistor value:", r_e)
 
 
+def calc2():
+    beta = 200
+    v0 = 1.65
+    gain = 165
+    vcc = 3.3
+    rc = 1e5
+    r1 = 1e3
+    r2 = 1e3
+    print("Let:", '\n' + '\n'.join(map(lambda i: str(i[0]) + ' = ' + str(i[1]), locals().items())))
+    print()
+    exclude_locals = set(locals().keys())
+
+    ic = vcc / 2 / rc
+    ib = ic / beta
+    ie = (beta + 1) * ic
+    re = rc / gain
+    rth = r1 * r2 / (r1 + r2)
+    print("if rth = (1 + beta) * re / 10, given re =", re, "by-the-book rth would be", (1 + beta) * re / 10)
+
+    lcs = {k: v for k, v in locals().items() if k not in exclude_locals and k not in {'exclude_locals', 'lcs'}}
+    print("Result:", '\n' + '\n'.join(map(lambda i: str(i[0]) + ' = ' + str(i[1]), lcs.items())))
+
+
 if __name__ == "__main__":
-    calculation_profile_1()
+    calc2()
 
