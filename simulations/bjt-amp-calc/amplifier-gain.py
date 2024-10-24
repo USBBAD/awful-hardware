@@ -44,21 +44,29 @@ def calculation_profile_1():
 def calc2():
     beta = 200
     v0 = 1.65
-    gain = 165
+    gain = 100
     vcc = 3.3
-    rc = 1e5
-    r1 = 1e3
-    r2 = 1e3
+    ic = 1e-3
+    vc = 1.65
+    v_be = 0.7
     print("Let:", '\n' + '\n'.join(map(lambda i: str(i[0]) + ' = ' + str(i[1]), locals().items())))
     print()
     exclude_locals = set(locals().keys())
 
-    ic = vcc / 2 / rc
-    ib = ic / beta
-    ie = (beta + 1) * ic
+    #rth = r1 * r2 / (r1 + r2)
+    #print("if rth = (1 + beta) * re / 10, given re =", re, "by-the-book rth would be", (1 + beta) * re / 10)
+
+    rc = vc / ic
     re = rc / gain
-    rth = r1 * r2 / (r1 + r2)
-    print("if rth = (1 + beta) * re / 10, given re =", re, "by-the-book rth would be", (1 + beta) * re / 10)
+    ib = ic / beta
+    ie = (1 + beta) * ib
+
+    # voltage on R2
+    v2 = v_be + ie * re
+    v1 = vcc - v2
+    ve = ie * re
+    vth = v_be + ve
+    r1 = vcc / vth
 
     lcs = {k: v for k, v in locals().items() if k not in exclude_locals and k not in {'exclude_locals', 'lcs'}}
     print("Result:", '\n' + '\n'.join(map(lambda i: str(i[0]) + ' = ' + str(i[1]), lcs.items())))

@@ -141,165 +141,6 @@
 				)
 			)
 		)
-		(symbol "Device:C_Polarized_US"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized_US"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_US_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.778) (xy -1.27 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.032 -1.27)
-					(mid 0 -0.5572)
-					(end -2.032 -1.27)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Polarized_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 3.302)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Simulation_SPICE:NPN"
 			(pin_numbers hide)
 			(pin_names
@@ -1324,7 +1165,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "10k"
 			(at 172.72 92.7099 0)
 			(effects
 				(font
@@ -1630,7 +1471,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "6k"
 			(at 156.21 78.7399 0)
 			(effects
 				(font
@@ -1744,7 +1585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Params" "dc=0 ampl=0.1 f=80 ac=1"
+		(property "Sim.Params" "dc=0 ampl=0.01 f=80 ac=1"
 			(at 85.09 102.7402 0)
 			(effects
 				(font
@@ -1805,7 +1646,7 @@
 				)
 			)
 		)
-		(property "Value" "5u"
+		(property "Value" "10u"
 			(at 166.37 80.01 90)
 			(effects
 				(font
@@ -1874,7 +1715,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "110k"
+		(property "Value" "77.3k"
 			(at 128.27 78.7399 0)
 			(effects
 				(font
@@ -1944,7 +1785,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "20k"
 			(at 128.27 106.6799 0)
 			(effects
 				(font
@@ -1990,74 +1831,6 @@
 			(project "bjt-amp-simulation"
 				(path "/7eb2004b-dcea-4027-b257-90c715ab0ad6"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 204.47 90.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e38a6bc2-e75d-42c0-963a-603f3780254c")
-		(property "Reference" "C2"
-			(at 203.835 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10u"
-			(at 203.835 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 204.47 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6248332a-e109-4abd-949f-1d0d6673b2c6")
-		)
-		(pin "1"
-			(uuid "08608505-23d9-48aa-a5fb-a43a12409eef")
-		)
-		(instances
-			(project "bjt-amp-simulation"
-				(path "/7eb2004b-dcea-4027-b257-90c715ab0ad6"
-					(reference "C2")
 					(unit 1)
 				)
 			)
