@@ -1987,7 +1987,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d73ddd7-5d80-46a0-b13a-40f499585570")
 		(property "Reference" "R17"
-			(at 97.79 88.2649 0)
+			(at 97.79 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1995,8 +1995,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.6k"
-			(at 97.79 90.17 0)
+		(property "Value" "10k"
+			(at 97.79 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
