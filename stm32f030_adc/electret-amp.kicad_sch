@@ -1398,16 +1398,6 @@
 		)
 		(uuid "a2220915-275d-4051-b8b6-dca5b49f320e")
 	)
-	(text "20k on both ends\nwill do just fine"
-		(exclude_from_sim no)
-		(at 134.366 93.98 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-		)
-		(uuid "f6740f30-11da-4214-814e-7a7d8f0ea3e4")
-	)
 	(hierarchical_label "MIC_AMP_OUT"
 		(shape input)
 		(at 189.23 92.71 0)
@@ -2402,7 +2392,7 @@
 		(fields_autoplaced yes)
 		(uuid "de8ca7a5-24d7-4134-9919-7b4f900f17f7")
 		(property "Reference" "R10"
-			(at 128.27 86.9949 0)
+			(at 128.27 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2410,8 +2400,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "20.7k"
-			(at 128.27 88.9 0)
+		(property "Value" "86k"
+			(at 128.27 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
