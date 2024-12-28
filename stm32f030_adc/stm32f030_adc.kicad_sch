@@ -20,16 +20,6 @@
 		)
 		(uuid "49bfbda4-fb0c-4ec5-8b0d-b8848b6726b5")
 	)
-	(text "OBSOLETE!\n"
-		(exclude_from_sim no)
-		(at 129.54 130.048 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d2b4dca3-82d2-40d2-84d6-afb738ad8dbe")
-	)
 	(sheet
 		(at 85.09 82.55)
 		(size 31.75 12.7)
@@ -75,94 +65,6 @@
 			(project "stm32f030_adc"
 				(path "/85629656-c73b-4e1f-b8e8-4366f4b01266"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 111.76 137.16)
-		(size 39.37 17.78)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "b4185304-bcce-4cb1-98f3-8bffc8e76c1e")
-		(property "Sheetname" "OpAmp"
-			(at 111.76 136.4484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "OpAmp.kicad_sch"
-			(at 111.76 155.5246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "AUDIO_RING" input
-			(at 111.76 143.51 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "b586d801-be9a-4c7a-9bc4-a6e16a9f6563")
-		)
-		(pin "AUDIO_SLEEVE" input
-			(at 111.76 146.05 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "7a300993-ba0a-461f-9a11-657ba8ccc890")
-		)
-		(pin "AUDIO_R_INV_SCALED" input
-			(at 151.13 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "b2bbe81e-b8f4-475c-854c-3870be763538")
-		)
-		(pin "AUDIO_TIP" input
-			(at 111.76 148.59 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "047b12b7-3346-4fe7-a31c-3bcac9c9b9f6")
-		)
-		(pin "AUDIO_L_INV_SCALED" input
-			(at 151.13 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "da19930e-2970-484c-89d6-e6d372729f0c")
-		)
-		(instances
-			(project "stm32f030_adc"
-				(path "/85629656-c73b-4e1f-b8e8-4366f4b01266"
-					(page "2")
 				)
 			)
 		)
