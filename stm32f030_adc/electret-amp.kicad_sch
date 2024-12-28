@@ -335,167 +335,6 @@
 				)
 			)
 		)
-		(symbol "Device:R_Potentiometer"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RV"
-				(at -4.445 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Potentiometer"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Potentiometer"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "resistor variable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Potentiometer*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Potentiometer_0_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Potentiometer_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Transistor_BJT:2N3904"
 			(pin_names
 				(offset 0) hide)
@@ -1081,10 +920,6 @@
 		(color 0 0 0 0)
 		(uuid "be1ceb1e-fba3-447e-a1eb-ea5a239a4e34")
 	)
-	(no_connect
-		(at 153.67 78.74)
-		(uuid "42eddc73-fa09-46a0-bcf8-e729f5627359")
-	)
 	(wire
 		(pts
 			(xy 111.76 100.33) (xy 125.73 100.33)
@@ -1134,16 +969,6 @@
 			(type default)
 		)
 		(uuid "2df20e68-451d-426a-92b3-5efba6b55440")
-	)
-	(wire
-		(pts
-			(xy 157.48 71.12) (xy 157.48 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "400a9963-aec1-4e55-a6de-334e7bb6de7b")
 	)
 	(wire
 		(pts
@@ -1247,7 +1072,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 63.5) (xy 153.67 67.31)
+			(xy 157.48 63.5) (xy 157.48 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1317,16 +1142,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 74.93) (xy 153.67 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3907c47-9762-4fb9-b59c-bed29eb0780f")
-	)
-	(wire
-		(pts
 			(xy 153.67 105.41) (xy 153.67 106.68)
 		)
 		(stroke
@@ -1334,17 +1149,6 @@
 			(type default)
 		)
 		(uuid "fae80a30-339c-4760-97ca-d3faece88bf2")
-	)
-	(text "Depends on the mic\n2k for 20mV amplitude"
-		(exclude_from_sim no)
-		(at 160.02 68.834 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left)
-		)
-		(uuid "0f3f1786-f36d-4f4f-9f62-14fe9c8e71ca")
 	)
 	(text "40 to 100 Ohm\nSlows discharge, so\nthe waveform does not\nlook like sawtooth"
 		(exclude_from_sim no)
@@ -2106,7 +1910,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 153.67 63.5 0)
+		(at 157.48 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2115,7 +1919,7 @@
 		(fields_autoplaced yes)
 		(uuid "96cd596a-1498-40eb-bb6c-fa78f30f7c8a")
 		(property "Reference" "#PWR010"
-			(at 153.67 67.31 0)
+			(at 157.48 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2124,7 +1928,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 156.21 62.2299 0)
+			(at 160.02 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2133,7 +1937,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 63.5 0)
+			(at 157.48 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2142,7 +1946,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 63.5 0)
+			(at 157.48 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2151,7 +1955,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 63.5 0)
+			(at 157.48 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2322,7 +2126,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb582459-e403-406d-86eb-22c337388415")
 		(property "Reference" "R12"
-			(at 128.27 112.3949 0)
+			(at 128.27 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2330,8 +2134,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "19.7k"
-			(at 128.27 114.3 0)
+		(property "Value" "25k"
+			(at 128.27 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2446,79 +2250,6 @@
 			(project "stm32f030_adc"
 				(path "/85629656-c73b-4e1f-b8e8-4366f4b01266/f519304b-9da7-41e0-88ca-532cf10653e0"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 153.67 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ece93139-5941-484d-86fc-0d8fccc7b0e2")
-		(property "Reference" "RV1"
-			(at 151.13 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0k-5k"
-			(at 151.13 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 153.67 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0b7ae438-540c-4c84-945b-7d31ce8515ca")
-		)
-		(pin "1"
-			(uuid "9b4bf8c2-d9b6-4d6e-9aac-9c4bbe7346ab")
-		)
-		(pin "3"
-			(uuid "891b88a7-0a9b-4181-a707-bc2c08992bff")
-		)
-		(instances
-			(project ""
-				(path "/85629656-c73b-4e1f-b8e8-4366f4b01266/f519304b-9da7-41e0-88ca-532cf10653e0"
-					(reference "RV1")
 					(unit 1)
 				)
 			)
