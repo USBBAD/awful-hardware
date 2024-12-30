@@ -186,7 +186,6 @@
         0.0,
         0.5,
         1.0,
-        1.5,
         2.0
       ],
       "tuning_pattern_settings": {
@@ -493,7 +492,7 @@
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
-      "svg": "",
+      "svg": "/home/dm/Downloads/",
       "vrml": ""
     },
     "page_layout_descr_file": ""
