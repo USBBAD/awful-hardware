@@ -784,6 +784,174 @@
 				)
 			)
 		)
+		(symbol "Device:Crystal"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Crystal"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Two pin crystal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Crystal_0_1"
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -896,330 +1064,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:Resonator_Small"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at 3.175 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Resonator_Small"
-				(at 3.175 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -0.635 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at -0.635 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Three pin ceramic resonator, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "ceramic resonator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Filter* Resonator*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Resonator_Small_0_1"
-				(rectangle
-					(start -3.556 -2.54)
-					(end -1.524 -2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -3.556 -1.778)
-					(end -1.524 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -2.54 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.635 1.905)
-					(end 0.635 -1.905)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -3.81)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.778) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.397 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.381)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.381)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.413 -2.794) (xy 2.413 -3.81) (xy -2.413 -3.81) (xy -2.413 -2.667)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.524 -2.54)
-					(end 3.556 -2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.524 -1.778)
-					(end 3.556 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Resonator_Small_1_1"
-				(pin passive line
-					(at -2.54 2.54 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 270)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2844,6 +2688,12 @@
 		(uuid "09f049f8-79b7-4757-92c5-00b74609ea39")
 	)
 	(junction
+		(at 60.96 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15813bea-bb5b-44cc-9b93-de7ec22f17be")
+	)
+	(junction
 		(at 193.04 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2902,12 +2752,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53d7afaf-326b-42ac-988b-e4466b142af6")
-	)
-	(junction
-		(at 68.58 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "606cd768-9b60-4024-aa37-a7781241d9c8")
 	)
 	(junction
 		(at 234.95 74.93)
@@ -2988,6 +2832,12 @@
 		(uuid "ea94a9ef-19b0-4ebb-b8b3-da4ca9c3591b")
 	)
 	(junction
+		(at 68.58 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f19c2cae-0eb3-427a-afdb-afe24cbc5ff1")
+	)
+	(junction
 		(at 248.92 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3012,16 +2862,6 @@
 			(type default)
 		)
 		(uuid "030248f2-775d-4021-aac4-3b1381140b72")
-	)
-	(wire
-		(pts
-			(xy 60.96 170.18) (xy 68.58 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0352c21a-dd71-4822-bcfd-8ef11f73114a")
 	)
 	(wire
 		(pts
@@ -3062,6 +2902,16 @@
 			(type default)
 		)
 		(uuid "0e610f6b-d657-4478-9c9f-a1d689afea3c")
+	)
+	(wire
+		(pts
+			(xy 60.96 172.72) (xy 60.96 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "123697a2-b692-4ce8-950c-11cbdbfc24a1")
 	)
 	(wire
 		(pts
@@ -3245,16 +3095,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 78.74) (xy 152.4 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46b82135-84ba-444b-b2b5-b1e8eec2848a")
-	)
-	(wire
-		(pts
 			(xy 185.42 99.06) (xy 187.96 99.06)
 		)
 		(stroke
@@ -3375,6 +3215,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 86.36) (xy 146.05 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cdc8b86-7069-4ca3-940e-244377bc8806")
+	)
+	(wire
+		(pts
 			(xy 168.91 48.26) (xy 175.26 48.26)
 		)
 		(stroke
@@ -3425,7 +3275,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 146.05) (xy 81.28 146.05)
+			(xy 68.58 146.05) (xy 83.82 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3455,23 +3305,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 170.18) (xy 81.28 170.18)
+			(xy 68.58 172.72) (xy 83.82 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "80a592c2-ed87-4e12-83d8-164ab21c88f4")
-	)
-	(wire
-		(pts
-			(xy 129.54 81.28) (xy 129.54 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88b95978-c33b-47bc-b2ea-74064d53ac91")
 	)
 	(wire
 		(pts
@@ -3492,6 +3332,16 @@
 			(type default)
 		)
 		(uuid "92d83afa-ac61-4e11-9a65-a38272cc9ca1")
+	)
+	(wire
+		(pts
+			(xy 60.96 172.72) (xy 68.58 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92dc93d6-1199-4d43-bfad-502ef6348042")
 	)
 	(wire
 		(pts
@@ -3545,7 +3395,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 146.05) (xy 81.28 154.94)
+			(xy 83.82 146.05) (xy 83.82 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3615,13 +3465,23 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 162.56) (xy 68.58 170.18)
+			(xy 68.58 162.56) (xy 68.58 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b7a23880-7fa2-46f5-86d0-2277252e1033")
+	)
+	(wire
+		(pts
+			(xy 134.62 86.36) (xy 146.05 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba99c174-5b19-4fe2-b417-aedba1f9aec2")
 	)
 	(wire
 		(pts
@@ -3645,16 +3505,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 81.28) (xy 133.35 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c19a0311-64b6-4d75-a85f-a8ab133ae266")
-	)
-	(wire
-		(pts
 			(xy 39.37 138.43) (xy 39.37 146.05)
 		)
 		(stroke
@@ -3672,16 +3522,6 @@
 			(type default)
 		)
 		(uuid "c431430d-5005-4cc4-97cd-3f4d024b12e2")
-	)
-	(wire
-		(pts
-			(xy 144.78 81.28) (xy 144.78 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c442b744-2875-4595-af06-c57610a9e5e9")
 	)
 	(wire
 		(pts
@@ -3755,17 +3595,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 81.28) (xy 144.78 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6651467-9cd8-45f1-820c-dadadfa0ebba")
-	)
-	(wire
-		(pts
-			(xy 81.28 162.56) (xy 81.28 170.18)
+			(xy 83.82 162.56) (xy 83.82 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3815,6 +3645,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 81.28) (xy 152.4 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e71c1526-f346-44c5-8fb7-ac98599f49a2")
+	)
+	(wire
+		(pts
 			(xy 142.24 59.69) (xy 152.4 59.69)
 		)
 		(stroke
@@ -3835,6 +3675,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 78.74) (xy 152.4 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea419d42-b588-4922-aa84-0662552a38a8")
+	)
+	(wire
+		(pts
 			(xy 220.98 74.93) (xy 234.95 74.93)
 		)
 		(stroke
@@ -3852,16 +3702,6 @@
 			(type default)
 		)
 		(uuid "ec3ab2c0-c285-4663-badd-efbe9f1e7b06")
-	)
-	(wire
-		(pts
-			(xy 144.78 83.82) (xy 140.97 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed1bbac8-8780-4f5d-937a-13ea6e55d1aa")
 	)
 	(wire
 		(pts
@@ -4207,7 +4047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 69.5452 162.56 0)
 			(effects
 				(font
@@ -4410,7 +4250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 176.2252 55.88 0)
 			(effects
 				(font
@@ -4447,74 +4287,6 @@
 			(project "stm32f030_adc"
 				(path "/85629656-c73b-4e1f-b8e8-4366f4b01266/961be52f-ca6e-47db-97af-a75ea0ab8933"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 129.54 85.09 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "128af97d-250f-41e0-a4e6-151323dbedb7")
-		(property "Reference" "#PWR03"
-			(at 129.54 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 127 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12a9f521-b1b5-4fbb-ae18-67063fc9dc46")
-		)
-		(instances
-			(project "stm32f030_adc"
-				(path "/85629656-c73b-4e1f-b8e8-4366f4b01266/961be52f-ca6e-47db-97af-a75ea0ab8933"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -4924,7 +4696,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 60.96 171.45 0)
+		(at 60.96 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4933,7 +4705,7 @@
 		(fields_autoplaced yes)
 		(uuid "427b21a2-ee97-4787-8bd9-07fc370b9b5a")
 		(property "Reference" "#PWR026"
-			(at 60.96 177.8 0)
+			(at 60.96 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4942,7 +4714,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 60.96 176.53 0)
+			(at 60.96 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4950,7 +4722,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 171.45 0)
+			(at 60.96 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4959,7 +4731,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 171.45 0)
+			(at 60.96 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4968,7 +4740,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 171.45 0)
+			(at 60.96 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5016,7 +4788,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 235.9152 82.55 0)
 			(effects
 				(font
@@ -5086,7 +4858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 207.9752 93.98 0)
 			(effects
 				(font
@@ -5290,7 +5062,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 194.0052 82.55 0)
 			(effects
 				(font
@@ -5642,7 +5414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 249.8852 82.55 0)
 			(effects
 				(font
@@ -5712,7 +5484,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 263.8552 82.55 0)
 			(effects
 				(font
@@ -6258,7 +6030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 143.2052 67.31 0)
 			(effects
 				(font
@@ -6368,7 +6140,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 81.28 158.75 0)
+		(at 83.82 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6377,7 +6149,7 @@
 		(fields_autoplaced yes)
 		(uuid "b34e9cd1-cc56-496f-a58c-43d48eadc71a")
 		(property "Reference" "C14"
-			(at 85.09 157.4799 0)
+			(at 87.63 157.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6386,7 +6158,7 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 85.09 160.0199 0)
+			(at 87.63 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6394,8 +6166,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
-			(at 82.2452 162.56 0)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+			(at 84.7852 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6404,7 +6176,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 158.75 0)
+			(at 83.82 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6413,7 +6185,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 158.75 0)
+			(at 83.82 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6431,77 +6203,6 @@
 			(project "stm32f030_adc"
 				(path "/85629656-c73b-4e1f-b8e8-4366f4b01266/961be52f-ca6e-47db-97af-a75ea0ab8933"
 					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Resonator_Small")
-		(at 138.43 81.28 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b424be40-4fcc-49c4-a406-fdda3a814e57")
-		(property "Reference" "Y1"
-			(at 138.43 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "8 MHz"
-			(at 138.43 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Crystal:Resonator-2Pin_W6.0mm_H3.0mm"
-			(at 138.43 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Three pin ceramic resonator, small symbol"
-			(at 138.43 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "d0427401-be21-4db8-823f-031a60985a8e")
-		)
-		(pin "1"
-			(uuid "ee05aa99-1ddb-4f6c-9d54-f0a7ab808d70")
-		)
-		(pin "2"
-			(uuid "2893924e-c15e-4b1d-a0f3-2881600d087e")
-		)
-		(instances
-			(project "stm32f030_adc"
-				(path "/85629656-c73b-4e1f-b8e8-4366f4b01266/961be52f-ca6e-47db-97af-a75ea0ab8933"
-					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -6535,7 +6236,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 194.0052 93.98 0)
 			(effects
 				(font
@@ -6605,7 +6306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 221.9452 82.55 0)
 			(effects
 				(font
@@ -6741,7 +6442,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 207.9752 82.55 0)
 			(effects
 				(font
@@ -6809,7 +6510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_Micro-B_Wuerth_614105150721_Vertical"
+		(property "Footprint" "Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal"
 			(at 48.26 49.53 0)
 			(effects
 				(font
@@ -7002,6 +6703,76 @@
 			(project ""
 				(path "/85629656-c73b-4e1f-b8e8-4366f4b01266/961be52f-ca6e-47db-97af-a75ea0ab8933"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal")
+		(at 134.62 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff1c7618-9d07-450b-8968-951272a9d1f5")
+		(property "Reference" "Y2"
+			(at 138.43 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "8 MHz"
+			(at 138.43 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Crystal:Resonator-2Pin_W6.0mm_H3.0mm"
+			(at 134.62 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Two pin crystal"
+			(at 134.62 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7e5f9ed-3d76-4aa3-b50f-09f3725f1c8a")
+		)
+		(pin "2"
+			(uuid "9b790121-86fd-4a20-9f80-2989118dbf1d")
+		)
+		(instances
+			(project ""
+				(path "/85629656-c73b-4e1f-b8e8-4366f4b01266/961be52f-ca6e-47db-97af-a75ea0ab8933"
+					(reference "Y2")
 					(unit 1)
 				)
 			)
