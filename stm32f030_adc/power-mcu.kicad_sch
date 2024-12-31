@@ -2622,6 +2622,12 @@
 		(uuid "b4700c45-5281-4dba-a864-613f8dd6fa8e")
 	)
 	(junction
+		(at 83.82 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c091ec9f-2e1e-4122-9703-ef98e6ba1402")
+	)
+	(junction
 		(at 207.01 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2686,6 +2692,16 @@
 			(type default)
 		)
 		(uuid "06192ccc-7dbb-469e-b286-cb2ae2b82bcf")
+	)
+	(wire
+		(pts
+			(xy 68.58 139.7) (xy 68.58 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "097468d3-0e2f-47a8-9ded-25e9cba8164e")
 	)
 	(wire
 		(pts
@@ -2799,6 +2815,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 146.05) (xy 83.82 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29d6fbc7-bdec-4985-a355-9b47016a242b")
+	)
+	(wire
+		(pts
 			(xy 185.42 80.01) (xy 187.96 80.01)
 		)
 		(stroke
@@ -2806,6 +2832,16 @@
 			(type default)
 		)
 		(uuid "29f524ef-dbb0-4e07-b9ce-8fd107b04124")
+	)
+	(wire
+		(pts
+			(xy 81.28 139.7) (xy 83.82 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aaf9cf0-04a5-4cce-9680-e0b3ac6dde7d")
 	)
 	(wire
 		(pts
@@ -3169,7 +3205,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 146.05) (xy 83.82 154.94)
+			(xy 83.82 139.7) (xy 83.82 146.05)
 		)
 		(stroke
 			(width 0)
@@ -6197,6 +6233,74 @@
 			(project "stm32f030_adc"
 				(path "/85629656-c73b-4e1f-b8e8-4366f4b01266/961be52f-ca6e-47db-97af-a75ea0ab8933"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:R")
+		(at 74.93 139.7 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce94e131-49a4-4a6a-861c-c87f0cf629e3")
+		(property "Reference" "R3"
+			(at 74.93 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 74.93 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 74.93 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d004228a-4c51-4682-b94c-9cded5b19bf5")
+		)
+		(pin "2"
+			(uuid "d3a3fb00-79c6-4bf9-8129-51176a7777d8")
+		)
+		(instances
+			(project "stm32f030_adc"
+				(path "/85629656-c73b-4e1f-b8e8-4366f4b01266/961be52f-ca6e-47db-97af-a75ea0ab8933"
+					(reference "R3")
 					(unit 1)
 				)
 			)
