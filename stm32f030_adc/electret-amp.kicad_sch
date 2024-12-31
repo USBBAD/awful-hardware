@@ -942,13 +942,23 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 81.28) (xy 125.73 78.74)
+			(xy 125.73 64.77) (xy 125.73 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "239ad411-2e7c-450b-a77b-19e1265c58f5")
+	)
+	(wire
+		(pts
+			(xy 125.73 91.44) (xy 125.73 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26978896-798c-470b-9862-01f53fc1d206")
 	)
 	(wire
 		(pts
@@ -969,6 +979,16 @@
 			(type default)
 		)
 		(uuid "2df20e68-451d-426a-92b3-5efba6b55440")
+	)
+	(wire
+		(pts
+			(xy 125.73 116.84) (xy 125.73 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fac2337-e50d-4134-a12c-46784d6b1a99")
 	)
 	(wire
 		(pts
@@ -1052,7 +1072,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 93.98) (xy 125.73 100.33)
+			(xy 125.73 77.47) (xy 125.73 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1092,7 +1112,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 100.33) (xy 125.73 106.68)
+			(xy 125.73 100.33) (xy 125.73 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1102,7 +1122,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 119.38) (xy 125.73 123.19)
+			(xy 125.73 138.43) (xy 125.73 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1286,7 +1306,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 125.73 78.74 0)
+		(at 125.73 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1295,7 +1315,7 @@
 		(fields_autoplaced yes)
 		(uuid "2bbb6fae-e1a8-4f80-8dcc-47ad0a28ae7a")
 		(property "Reference" "#PWR011"
-			(at 125.73 82.55 0)
+			(at 125.73 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1304,7 +1324,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 128.27 77.4699 0)
+			(at 128.27 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1313,7 +1333,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 78.74 0)
+			(at 125.73 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1322,7 +1342,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 78.74 0)
+			(at 125.73 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1331,7 +1351,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 78.74 0)
+			(at 125.73 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1552,6 +1572,76 @@
 			(project "stm32f030_adc"
 				(path "/85629656-c73b-4e1f-b8e8-4366f4b01266/f519304b-9da7-41e0-88ca-532cf10653e0"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:R")
+		(at 125.73 110.49 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7827e7d9-0cb8-480c-a13d-833c0ff21b32")
+		(property "Reference" "R14"
+			(at 128.27 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0"
+			(at 128.27 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 125.73 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f07f8e61-1c1e-412d-b1fa-d9ec754833ba")
+		)
+		(pin "2"
+			(uuid "90dfb59d-dded-44f0-9fcb-d840bfb29a50")
+		)
+		(instances
+			(project "stm32f030_adc"
+				(path "/85629656-c73b-4e1f-b8e8-4366f4b01266/f519304b-9da7-41e0-88ca-532cf10653e0"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -1977,6 +2067,76 @@
 	)
 	(symbol
 		(lib_id "pspice:R")
+		(at 125.73 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc4fdcff-7cdf-41f7-85ea-722927afb683")
+		(property "Reference" "R13"
+			(at 128.27 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0"
+			(at 128.27 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 125.73 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e5f828f-a4c9-4944-9553-04a0e4056390")
+		)
+		(pin "2"
+			(uuid "cb149177-fcb9-446b-a7a2-629723432f6f")
+		)
+		(instances
+			(project "stm32f030_adc"
+				(path "/85629656-c73b-4e1f-b8e8-4366f4b01266/f519304b-9da7-41e0-88ca-532cf10653e0"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:R")
 		(at 153.67 118.11 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2117,7 +2277,7 @@
 	)
 	(symbol
 		(lib_id "pspice:R")
-		(at 125.73 113.03 180)
+		(at 125.73 132.08 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2126,7 +2286,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb582459-e403-406d-86eb-22c337388415")
 		(property "Reference" "R12"
-			(at 128.27 111.7599 0)
+			(at 128.27 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2135,7 +2295,7 @@
 			)
 		)
 		(property "Value" "25k"
-			(at 128.27 114.2999 0)
+			(at 128.27 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2144,7 +2304,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 125.73 113.03 0)
+			(at 125.73 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2153,7 +2313,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 113.03 0)
+			(at 125.73 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2162,7 +2322,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 113.03 0)
+			(at 125.73 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2187,7 +2347,7 @@
 	)
 	(symbol
 		(lib_id "pspice:R")
-		(at 125.73 87.63 180)
+		(at 125.73 71.12 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2196,7 +2356,7 @@
 		(fields_autoplaced yes)
 		(uuid "de8ca7a5-24d7-4134-9919-7b4f900f17f7")
 		(property "Reference" "R10"
-			(at 128.27 86.3599 0)
+			(at 128.27 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2205,7 +2365,7 @@
 			)
 		)
 		(property "Value" "86k"
-			(at 128.27 88.8999 0)
+			(at 128.27 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2214,7 +2374,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 125.73 87.63 0)
+			(at 125.73 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2223,7 +2383,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 87.63 0)
+			(at 125.73 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2232,7 +2392,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 87.63 0)
+			(at 125.73 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2324,7 +2484,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 125.73 123.19 0)
+		(at 125.73 142.24 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2334,7 +2494,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe87ac4c-6bef-4f52-ab73-3547f08fda7c")
 		(property "Reference" "#PWR012"
-			(at 125.73 129.54 0)
+			(at 125.73 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2343,7 +2503,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 123.19 124.4599 0)
+			(at 123.19 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2352,7 +2512,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 123.19 0)
+			(at 125.73 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2361,7 +2521,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 123.19 0)
+			(at 125.73 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2370,7 +2530,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 123.19 0)
+			(at 125.73 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
