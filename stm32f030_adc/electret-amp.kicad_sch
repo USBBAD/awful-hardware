@@ -1275,7 +1275,6 @@
 	(hierarchical_label "MIC_AMP_OUT"
 		(shape input)
 		(at 189.23 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
